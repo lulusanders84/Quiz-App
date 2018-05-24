@@ -1,0 +1,131 @@
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+	min-height: 100%;
+	background: linear-gradient(180deg, white 70%, #C41B20);
+}
+
+}
+h1, p {
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header {
+	padding: 20px;
+}
+
+p {
+	padding: 10px 0;	
+}
+
+button, input[type="submit"] {
+	padding: 15px;
+	background-color: #C41B20;
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.box {
+	background-color: #DBDCDB;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.banner-img {
+	height: 60px;
+}
+
+.outer {
+	display: flex;
+	height: 200px;
+}
+
+.inner {
+	display flex;
+	background-color: lightgray;
+}
+
+.title-header {
+	background-image: repeat;
+
+}
+.title-header img {
+	display: flex;
+	height: 200px;
+	width: auto;
+	margin-top: -20px;
+	margin-bottom: -30px;
+	text-align: center;
+}
+
+.question-box {
+	width: 60%;
+	border: 2px solid white;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+.banner-images {
+	background-image: url("https://images.fineartamerica.com/images-medium-large-5/3-heart-shaped-ecg-trace-alfred-pasieka.jpg");
+	height: 200px;
+	width: 55%;
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-position: center;
+	margin-top: -40px;
+	margin-bottom: -30px;
+
+}
+
+.feedback-image img{
+	width: 50%;
+	height: auto;
+}
+
+.question {
+	text-align: right;
+}
+.question-choices {
+	text-align: left;
+}
+
+.question-feedack {
+	text-align: right;
+}
+
+.question-result {
+
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 28px;
+
+}
+
+.question-feedback img{
+	display: block;
+	margin: 0 auto;
+	width:50%;
+	height: auto;
+}
+
+.answer-explanation-correct {
+	border-left: 2px dashed #C41B20;
+	height: 250px;
+}
+
+.answer-explanation-incorrect {
+	border-right: 2px dashed #C41B20;
+	height: 250px;
+}
